@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    top: 0px;
+    position: sticky;
+}
+
+.choose{
+    height: 750px;
+    width: 100vw;
+    background-color: yellow;
+    background-image: url("/Images/dev.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choose > h1{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+
+ .para > p{
+    font-size: 24px;
+    color: white;
+}
+.p2{
+    margin-top:140px;
+}
+
+.para{
+
+
+    width: 1280px;
+    margin-left: 140px;
+
+}
+
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+  .testimonial > h2,p{
+text-align: center;
+  }
+  .testimonial{
+      background-color: yellow;
+  }
+
